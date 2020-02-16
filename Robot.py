@@ -14,7 +14,7 @@ if(c==1 or c==sad or c==Sad or c==SAD):
   print("[Robot] >>> hmmm i am a baby Robot so i don't have something to say with you more")
   e=raw_input("[You] >>> ")
   print("[Robot] >>> Robot is sleeping") 
-if(c==2| or c==happy or c==Happy or c==HAPPY):
+if(c==2 or c==happy or c==Happy or c==HAPPY):
   print("[Robot] >>> So good!")
   f=raw_input("[You] >>> ")
   print("[Robot] >>> hmmm i am a baby Robot so i don't have something to say with you more")
