@@ -1,6 +1,7 @@
 import time
 
 while True:
-a=raw_input('what you want to say >>> ')
-print(a)
-time.sleep(1)
+  localtime = time.localtime()
+  result = time.strftime("%I:%M:%S %p", localtime)
+  print(result)
+  time.sleep(1)
