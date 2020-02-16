@@ -5,7 +5,7 @@ print("[Robot] >>> Hello\n=============================\n1. Hello\n=============
 a=raw_input(">Choose the option above\n[You] >>> ")
 print("[Robot] >>> What's your name?")
 b=raw_input()
-print("[Robot] >>> Nice to meet you ".b) 
+print("[Robot] >>> Nice to meet you "+b) 
 print("[Robot] >>> What's your feeling now?\n=============================\n1. Sad\n=============================\n2. Happy=============================")
 c=raw_input(">Choose the option above\n[You] >>> ")
 if(c==1 or c==sad or c==Sad or c==SAD):
