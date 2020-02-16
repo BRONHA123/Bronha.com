@@ -8,7 +8,7 @@ b=raw_input()
 print("[Robot] >>> Nice to meet you "+b) 
 print("[Robot] >>> What's your feeling now?\n=============================\n1. Sad\n2. Happy\n=============================")
 print(">Choose the option above\n[You] >>> ")
-c=raw_input()
+c=input()
 if(c==1):
   print("[Robot] >>> Be strong, I am always with you!") 
   d=raw_input("[You] >>> ")
