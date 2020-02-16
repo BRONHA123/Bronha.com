@@ -1,5 +1,5 @@
 import time
-clear()
+
 
 print("[Robot] >>> Hello\n=============================\n1. Hello\n=============================")
 a=raw_input(">Choose the option above\n[You] >>> ")
