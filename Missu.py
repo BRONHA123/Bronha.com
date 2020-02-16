@@ -1,7 +1,5 @@
 import time
-
+a=raw_input("feeling >>> ")
 while True:
-  localtime = time.localtime()
-  result = time.strftime("%I:%M:%S %p", localtime)
-  print(result)
+  print(a)
   time.sleep(1)
