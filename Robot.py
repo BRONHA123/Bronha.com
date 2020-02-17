@@ -30,7 +30,8 @@ if(c==num1):
         print("[Robot] >>> sorry i want to sleep now bye!")
         time.sleep(2)
         os.exit("[System] >>> Robot is sleeping now!")
-  if h==num2:
+  numh2="2" 
+  if h==numh2:
     print("[Robot] >>> Oh why?")
     raw_input("[You] >>> ") 
     print("[Robot] >>> Rrrr....") 
