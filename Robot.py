@@ -42,9 +42,9 @@ if(c==num1):
 num2="2"
 if(c==num2):
   print("[Robot] >>> So good!")
-  f=raw_input("[You] >>> ")
+  raw_input("[You] >>> ")
   print("[Robot] >>> hmmm i am a baby Robot so i don't have something to say with you more")
-  g=raw_input("[You] >>> ")
+  raw_input("[You] >>> ")
   time.sleep(2)
   print("[System] >>> Robot is sleeping now!")
 
