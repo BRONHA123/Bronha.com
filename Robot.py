@@ -29,7 +29,7 @@ if(c==num1):
         raw_input("[You] >>> ")
         print("[Robot] >>> sorry i want to sleep now bye!")
         time.sleep(2)
-        os.exit("[System] >>> Robot is sleeping now!")
+        print("[System] >>> Robot is sleeping now!")
   numh2="2" 
   if h==numh2:
     print("[Robot] >>> Oh why?")
@@ -38,7 +38,7 @@ if(c==num1):
     time.sleep(1)
     print("[Robot] >>> Hey! i want to sleep right now!") 
     time.sleep(2)
-    os.exit("[System] >>> Robot is sleeping now!") 
+    print("[System] >>> Robot is sleeping now!") 
 num2="2"
 if(c==num2):
   print("[Robot] >>> So good!")
