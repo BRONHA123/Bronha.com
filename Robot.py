@@ -29,8 +29,8 @@ if(c==1):
     
   if h==2:
   	print("[Robot] >>> Why? ")
-      Z=raw_input("[You] >>> ")
-      print("[Robot] >>> hmm so sad !")
+    Z=raw_input("[You] >>> ")
+    print("[Robot] >>> hmm so sad !")
     
 if(c==2):
   print("[Robot] >>> So good!")
