@@ -19,7 +19,8 @@ if(c==num1):
   print("[Robot] >>> Do you love Bronha?\n=============================\n1. Yes!\n2. No! \n=============================\n[You] >>> ")
   h=raw_input() 
   loven="Panha"
-  if h==1:
+  
+  if h==num1:
     time.sleep(2)
     if b==loven:
       print("[Robot] >>> Oh really?  He loves you too, but he doesn't tell you because he doesn't want to love you or he no time with you!  And if you want to know more, please ask him yourself!")
@@ -29,7 +30,7 @@ if(c==num1):
         print("[Robot] >>> sorry i want to sleep now bye!")
         time.sleep(2)
         os.exit("[System] >>> Robot is sleeping now!")
-  if h==2:
+  if h==num2:
     print("[Robot] >>> Oh why?")
     raw_input("[You] >>> ") 
     print("[Robot] >>> Rrrr....") 
