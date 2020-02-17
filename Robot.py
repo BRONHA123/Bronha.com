@@ -33,8 +33,10 @@ if(c==num1):
     else:
     	print("[Robot] >>> Ohh sad, he have his cr already, sorry i can't help you")
         raw_input("[You] >>> ")
-        print("[Robot] >>> sorry i want to sleep now bye!")
+        print("[Robot] >>> Oh sorry, I want to help you, but there is no way because it is a heart decision") 
         time.sleep(2)
+        print("[Robot] >>> i want to sleep now bye!")
+        time.sleep(3)
         print("[System] >>> Robot is sleeping now!")
 
   if h==numh2:
