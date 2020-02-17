@@ -15,7 +15,7 @@ if(c==1):
   print("[Robot] >>> Why? ")
   d=raw_input()
   print("[Robot] >>> Be strong, I am always with you!") 
-  d=raw_input("[You] >>> ")
+  e=raw_input("[You] >>> ")
   print("[Robot] >>> Do you love Bronha?\n=============================\n1. Yes!\n2. No! \n=============================\n[You] >>> ")
   h=raw_input() 
   if h==1 and b=="Panha":
@@ -29,7 +29,7 @@ if(c==1):
     
   if h==2:
   	print("[Robot] >>> Why? ")
-    Z=raw_input("[You] >>> ")
+    i=raw_input("[You] >>> ")
     print("[Robot] >>> hmm so sad !")
     
 if(c==2):
