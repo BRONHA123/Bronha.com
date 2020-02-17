@@ -29,7 +29,7 @@ if(c==1):
     
   if h==2:
   	print("[Robot] >>> Why? ")
-      raw_input("[You] >>> ")
+      Z=raw_input("[You] >>> ")
       print("[Robot] >>> hmm so sad !")
     
 if(c==2):
