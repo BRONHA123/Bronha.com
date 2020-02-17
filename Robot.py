@@ -20,7 +20,7 @@ if(c==1):
   h=raw_input() 
   if h==1 and b=="Panha":
     print("[Robot] >>> Oh really?  He loves you too, but he doesn't tell you because he doesn't want to love you!  And if you want to know more, please ask him yourself!")
-    elif h==1:
+  if h==1:
     	print("[Robot] >>> but he have his cr, sorry i can't help you")
         raw_input("[You] >>> ")
         print("[Robot] >>> sorry i want to sleep now bye!")
