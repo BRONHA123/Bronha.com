@@ -23,7 +23,7 @@ if(c==1):
     
     if b==loven:
       print("[Robot] >>> Oh really?  He loves you too, but he doesn't tell you because he doesn't want to love you or he no time with you!  And if you want to know more, please ask him yourself!")
-    else 
+    else:
     	print("[Robot] >>> but he have his cr, sorry i can't help you")
         raw_input("[You] >>> ")
         print("[Robot] >>> sorry i want to sleep now bye!")
