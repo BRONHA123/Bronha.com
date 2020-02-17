@@ -28,21 +28,14 @@ if(c==1):
         print("[Robot] >>> Now i want to sleep") 
         time.sleep(2)
         os.exit("[System] >>> Robot is sleeping now!") 
-      else:
-        print("[System] >>> Your input is wrong please see the options above") 
-        j=raw_input() 
+      
       if j==2:
         print("[Robot] >>> Ohh so sad, Be strong, I'm here with you!.")
         k=raw_input("[You] >>> ") 
         print("[Robot] >>> I want to sleep now! Goodbye!")
         time.sleep(2)
         os.exit("[System] >>> Robot is sleeping now!") 
-      else:
-        print("[System] >>> Your input is wrong please see the options above") 
-        j=raw_input()
-    else:
-      print("[System] >>> Your input is wrong please see the options above") 
-      i=raw_input()
+      
     if i==2:
       print("[Robot] >>> So why you not tell him?")
       raw_input("[You] >>> ") 
@@ -51,12 +44,7 @@ if(c==1):
       print("[Robot] >>> Sorry, I want to sleep now!") 
       time.sleep(2)
       os.exit("[System] >>> Robot is sleeping now!") 
-    else:
-      print("[System] >>> Your input is wrong please see the options above") 
-      i=raw_input()
-  else:
-    print("[System] >>> Your input is wrong please see the options above") 
-    i=raw_input()
+    
   if h==2:
 
     print("[Robot] >>> why?")
@@ -66,21 +54,18 @@ if(c==1):
     print("[Robot] >>> Sorry, I want to sleep now!") 
     time.sleep(2)
     os.exit("[System] >>> Robot is sleeping now!") 
-  else:
-    print("[System] >>> Your input is wrong please see the options above") 
-    h=raw_input()
+  
   print("[Robot] >>> hmmm i am a baby Robot so i don't have something to say with you more")
   e=raw_input("[You] >>> ")
+  time.sleep(2)
   print("[System] >>> (Robot is sleeping)") 
-else:
-    print("[System] >>> Your input is wrong please see the options above") 
-    c=raw_input()
+
 if(c==2):
   print("[Robot] >>> So good!")
   f=raw_input("[You] >>> ")
   print("[Robot] >>> hmmm i am a baby Robot so i don't have something to say with you more")
   g=raw_input("[You] >>> ")
-  print("[System] >>> (Robot is sleeping)") 
-else:
-    print("[System] >>> Your input is wrong please see the options above") 
-    c=raw_input()
+  time.sleep(2)
+  print("[System] >>> (Robot is sleeping)")
+
+
