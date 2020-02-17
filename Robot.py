@@ -4,10 +4,10 @@ import time
 print("\n\n[Robot] >>> Hello")
 
 print("[Robot] >>> What's your name?")
-print("[You] >>> "b=raw_input()) 
+print("[You] >>> ") b=raw_input() 
 print("[Robot] >>> Nice to meet you "+b) 
 print("[Robot] >>> What's your feeling now?\n=============================\n1. Sad\n2. Happy\n=============================")
-print(">Choose the option above\n[You] >>> "c=raw_input()0)
+print(">Choose the option above\n[You] >>> ") c=raw_input() 
 
 if(c==1):
   print("[Robot] >>> Be strong, I am always with you!") 
