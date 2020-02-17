@@ -10,7 +10,7 @@ print("[You] >>> ")
 b=raw_input() 
 time.sleep(1)
 print("[Robot] >>> Nice to meet you "+b) 
-time.sleep(1)
+time.sleep(3)
 print("[Robot] >>> How are you feeling now?\n=============================\n1. Sad\n2. Happy\n=============================")
 print(">Choose the number of the option above \n[You] >>> ") 
 c=raw_input() 
@@ -30,6 +30,12 @@ if(c==num1):
     time.sleep(2)
     if b==loven:
       print("[Robot] >>> Oh really?  He loves you too, but he doesn't tell you because he doesn't want to love you or he doesn't have a good time with you!  And if you want to know more, please ask him yourself!")
+      raw_input("\n[You] >>> ") 
+      time.sleep(1)
+      print("[Robot] >>> Sorry! i want to sleep now bye!")
+      time.sleep(3)
+      print("[System] >>> Robot is sleeping now!")
+      time.sleep(2)
     else:
     	print("[Robot] >>> Ohh sad, he have his cr already, sorry i can't help you")
         raw_input("[You] >>> ")
@@ -60,6 +66,7 @@ if(c==num2):
   time.sleep(2)
   print("[System] >>> Robot is sleeping now!")
   time.sleep(2)
+
 print("\n\ncreated by @BRONHA!\nCONTACT : http://www.bronha.xyz") 
 
 
