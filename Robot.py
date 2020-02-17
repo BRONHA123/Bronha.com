@@ -17,15 +17,15 @@ if(c==1):
   print("[Robot] >>> Do you love Bronha?\n=============================\n1. Yes!\n2. No! \n=============================\n[You] >>> ")
   h=raw_input() 
   if h==1:
-    print("oh.........! 😂 Did you tell him already?\n=============================\n1. Yes. \n2. No.\n=============================")
+    print("oh.........! Did you tell him already?\n=============================\n1. Yes. \n2. No.\n=============================")
     i=raw_input()
     if i==1:
       Print("[Robot] >>> He love you or not?\n=============================\n1. Yes he love me too.\n2. No! He have his cr.\n=============================")
       j=raw_input() 
       if j==1:
-        print("[Robot] >>> wish you and him..... 😂")
+        print("[Robot] >>> wish you and him.....")
         print("[You] >>> ")
-        print("[Robot] >>> Now i want to sleep 😴") 
+        print("[Robot] >>> Now i want to sleep") 
         time.sleep(2)
         os.exit("[System] >>> Robot is sleeping now!") 
       else:
