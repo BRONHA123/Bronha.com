@@ -27,10 +27,7 @@ if(c==1):
         time.sleep(2)
         os.exit("[System] >>> Robot is sleeping now!")
     
-  if h==2:
-  	print("[Robot] >>> Why? ")
-    i=raw_input("[You] >>> ")
-    print("[Robot] >>> hmm so sad !")
+  
     
 if(c==2):
   print("[Robot] >>> So good!")
