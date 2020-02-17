@@ -26,7 +26,7 @@ if(c==num1):
   if h==num1:
     time.sleep(2)
     if b==loven:
-      print("[Robot] >>> Oh really?  He loves you too, but he doesn't tell you because he doesn't want to love you or he no time with you!  And if you want to know more, please ask him yourself!")
+      print("[Robot] >>> Oh really?  He loves you too, but he doesn't tell you because he doesn't want to love you or he doesn't have a good time with you!  And if you want to know more, please ask him yourself!")
     else:
     	print("[Robot] >>> Ohh sad, he have his cr already, sorry i can't help you")
         raw_input("[You] >>> ")
