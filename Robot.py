@@ -13,29 +13,38 @@ c=raw_input()
 
 if(c==1):
   print("[Robot] >>> Why? ")
-  d=raw_input()
+  d=raw_input("[You] >>> ")
   print("[Robot] >>> Be strong, I am always with you!") 
   e=raw_input("[You] >>> ")
   print("[Robot] >>> Do you love Bronha?\n=============================\n1. Yes!\n2. No! \n=============================\n[You] >>> ")
   h=raw_input() 
-  if h==1 and b=="Panha":
-    print("[Robot] >>> Oh really?  He loves you too, but he doesn't tell you because he doesn't want to love you!  And if you want to know more, please ask him yourself!")
+  loven="Panha"
   if h==1:
+    
+    if b==loven:
+      print("[Robot] >>> Oh really?  He loves you too, but he doesn't tell you because he doesn't want to love you or he no time with you!  And if you want to know more, please ask him yourself!")
+    else 
     	print("[Robot] >>> but he have his cr, sorry i can't help you")
         raw_input("[You] >>> ")
         print("[Robot] >>> sorry i want to sleep now bye!")
         time.sleep(2)
         os.exit("[System] >>> Robot is sleeping now!")
-    
-  
-    
+  if h==2:
+    print("[Robot] >>> Oh why?")
+    raw_input("[You] >>> ") 
+    print("[Robot] >>> Rrrr....") 
+    time.sleep(1)
+    print("[Robot] >>> Hey! i want to sleep right now!") 
+    time.sleep(2)
+    os.exit("[System] >>> Robot is sleeping now!") 
+
 if(c==2):
   print("[Robot] >>> So good!")
   f=raw_input("[You] >>> ")
   print("[Robot] >>> hmmm i am a baby Robot so i don't have something to say with you more")
   g=raw_input("[You] >>> ")
   time.sleep(2)
-  print("[System] >>> (Robot is sleeping)")
+  print("[System] >>> Robot is sleeping now!")
 
 
 
