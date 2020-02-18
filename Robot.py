@@ -3,11 +3,14 @@ time.sleep(2)
 num1="1"
 numh2="2"
 num2="2"
+class allcolors:
+  green = '\33[32m'
 print("\n\n[Robot] >>> Hello")
 time.sleep(1)
-print("[Robot] >>> What's your name?\n[You] >>> "+b=raw_input())
+print("[Robot] >>> What's your name?\n[You] >>> ") 
+b=raw_input() 
 time.sleep(1)
-print("[Robot] >>> Nice to meet you "+b) 
+print("[Robot] >>> Nice to meet you "+ allcolors.green + b) 
 time.sleep(3)
 print("[Robot] >>> How are you feeling now?\n=============================\n1. Sad\n2. Happy\n=============================")
 print(">Choose the number of the option above \n[You] >>> ") 
