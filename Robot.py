@@ -3,6 +3,7 @@ time.sleep(2)
 num1="1"
 numh2="2"
 num2="2"
+num3="3"
 class allcolors:
   green = '\33[32m'
   endc = '\33[0m'
@@ -70,7 +71,7 @@ if(c==num2):
   time.sleep(2)
   print("[System] >>> Robot is sleeping now!")
   time.sleep(2)
-if(c==3):
+if(c==num3):
   print("Who?")
   raw_input("[" + allcolors.green + b + allcolors.endc + "] >>>") 
   print("[Robot] >>> Hahahaha!") 
