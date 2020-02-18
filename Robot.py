@@ -24,7 +24,7 @@ if(c==num1):
   print("[Robot] >>> Be strong, I am always with you!") 
   raw_input("[" + allcolors.green + b + allcolors.endc + "] >>> ")
   time.sleep(1)
-  print("[Robot] >>> Do you love Bronha?\n=============================\n1. Yes!\n2. No! \n=============================\n[You] >>> ")
+  print("[Robot] >>> Do you love Bronha?\n=============================\n1. Yes!\n2. No! \n=============================\n[" + allcolors.green + b + allcolors.endc + "] >>> ")
   h=raw_input() 
   loven="Panha"
   
