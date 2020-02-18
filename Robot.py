@@ -6,14 +6,15 @@ num2="2"
 class allcolors:
   green = '\33[32m'
   endc = '\33[0m'
+loven="Panha"
 print("\n\n[Robot] >>> Hello")
-time.sleep(1)
+time.sleep(2)
 print("[Robot] >>> What's your name?\n[You] >>> ") 
 b=raw_input() 
 time.sleep(1)
 print("[Robot] >>> Nice to meet you "+ allcolors.green + b + allcolors.endc) 
 time.sleep(3)
-print("[Robot] >>> How are you feeling now?\n=============================\n1. Sad\n2. Happy\n=============================")
+print("[Robot] >>> How are you feeling now?\n=============================\n1. Sad\n2. Happy\n3. Missing your cr\n=============================")
 print(">Choose the number of the option above \n[" + allcolors.green + b + allcolors.endc + "] >>> ") 
 c=raw_input() 
 time.sleep(1)
@@ -26,7 +27,7 @@ if(c==num1):
   time.sleep(1)
   print("[Robot] >>> Do you love Bronha?\n=============================\n1. Yes!\n2. No! \n=============================\n[" + allcolors.green + b + allcolors.endc + "] >>> ")
   h=raw_input() 
-  loven="Panha"
+  
   
   if h==num1:
     time.sleep(2)
@@ -57,6 +58,7 @@ if(c==num1):
     print("[Robot] >>> Hey! i want to sleep right now!") 
     time.sleep(2)
     print("[System] >>> Robot is sleeping now!") 
+    time.sleep(2)
 
 if(c==num2):
   time.sleep(1)
@@ -68,7 +70,11 @@ if(c==num2):
   time.sleep(2)
   print("[System] >>> Robot is sleeping now!")
   time.sleep(2)
-
+if(c==3):
+  print("Who?")
+  raw_input("[" + allcolors.green + b + allcolors.endc + "] >>>") 
+  print("[Robot] >>> Hahahaha!") 
+  time.sleep(2)
 print("\n\ncreated by @BRONHA!\nCONTACT : http://www.bronha.xyz") 
 
 
