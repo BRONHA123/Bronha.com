@@ -5,9 +5,7 @@ numh2="2"
 num2="2"
 print("\n\n[Robot] >>> Hello")
 time.sleep(1)
-print("[Robot] >>> What's your name?")
-print("[You] >>> ")
-b=raw_input() 
+print("[Robot] >>> What's your name?\n[You] >>> "+b=raw_input())
 time.sleep(1)
 print("[Robot] >>> Nice to meet you "+b) 
 time.sleep(3)
