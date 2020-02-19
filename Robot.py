@@ -19,7 +19,7 @@ print("[Robot] >>> How are you feeling now?\n=============================\n1. S
 print(">Choose the number of the option above \n[" + allcolors.green + b + allcolors.endc + "] >>> ") 
 c=raw_input() 
 file=open("DataPlayer.txt", "w")
-file.write("\nName :"+b) 
+file.write("\nName :") 
 file.close() 
 time.sleep(1)
 if(c==num1):
